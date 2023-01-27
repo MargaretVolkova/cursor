@@ -1,0 +1,97 @@
+.blok{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 20px;
+
+}
+div{
+width: 100px;
+height: 100px;
+background-color: rgba(128, 128, 128, 0.621);
+}
+
+div:nth-child(3),
+div:nth-child(7),
+div:nth-child(11),
+div:nth-child(15),
+div:nth-child(19),
+div:nth-child(23){
+    background-color: rgba(246, 8, 55, 0.753);
+}
+div:nth-child(21),
+div:nth-child(22),
+div:nth-child(24){
+    background-color: blue;
+}
+div:nth-child(3):hover{
+    background-color: rgba(128, 128, 128, 0.621);
+}
+div:nth-child(7):hover{
+    background-color: rgba(128, 128, 128, 0.621);
+}
+div:nth-child(11):hover{
+    background-color: rgba(128, 128, 128, 0.621);
+}
+div:nth-child(15):hover{
+    background-color: rgba(128, 128, 128, 0.621);
+}
+div:nth-child(19):hover{
+    background-color: rgba(128, 128, 128, 0.621);
+}
+div:nth-child(23):hover{
+    background-color: rgba(128, 128, 128, 0.621);
+}
+
+div:nth-child(21):hover{
+background-color: rgba(128, 128, 128, 0.621);}
+div:nth-child(22):hover{
+background-color: rgba(128, 128, 128, 0.621);}
+div:nth-child(24):hover{
+background-color: rgba(128, 128, 128, 0.621);
+}
+button {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    height: 80px;
+    border: none;
+    top: 150px;
+    left: 500px;
+    display: flex;
+    align-items: center;
+    background-color: #09e17c;
+    border-radius: 100px;
+    color:#FFFFFF;
+}
+button::before { 
+    position: absolute; 
+    height: 6px; 
+    content: url(../img/line.png);
+    top: 10px; 
+    left: -250px; 
+    } 
+  
+ button::after { 
+    position: absolute; 
+    height: 5px; 
+    content: url(../img/line.png); 
+    top: 10px; 
+    left: 550px; 
+ } 
+  
+       p::before { 
+          position: absolute; 
+          height: 4px; 
+          content: url(../img/line.png);
+          top: 10px; 
+          left: -250px; 
+       } 
+  
+       p::after { 
+          position: absolute; 
+          height: 4px; 
+          content: url(../img/line.png);
+          top: 10px; 
+          left: 550px; 
+       }
