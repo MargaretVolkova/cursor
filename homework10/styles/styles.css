@@ -1,0 +1,168 @@
+:root{
+    --btn-width:280px;
+    --btn-height:20px;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.star{
+width: 800px;
+height: 300px;
+background-image: url(../img/milky-way.jpg);
+background-repeat: no-repeat;
+margin-top: 150px;
+
+}
+.source{
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    width: var(--btn-width);
+    height: var(--btn-height);
+    color: blueviolet;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 10px rgb(180, 127, 229);
+    transform: translate(-50%, -50%);
+
+}
+.source2{
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    width: var(--btn-width);
+    height: var(--btn-height);
+    color: rgb(172, 13, 135);
+    background-color: rgb(195, 35, 139);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 10px rgb(205, 126, 163);
+    transform: translate(-50%, -50%);
+}
+.wrap{
+    top: 10px;
+    left: 250px;
+    position: absolute;
+    width: var(--btn-width);
+    height: var(--btn-height);
+    transform: translate(-50%,-50%);
+}
+.source:hover{
+    transform: translate(-50%, -50%) rotate(15deg);
+}
+.source2:hover{
+    transform: translate(-50%, -50%) rotate(-15deg)   
+}
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-50px);
+    
+}
+
+@keyframes box-move{
+    0% {
+        transform: translate(0px, 0px);
+        transform-origin: center;
+     }
+  
+     20% {
+        transform: translate(70px, 80px);
+        transform: translate(100px, -120px);
+        transform-origin:  center;
+     }
+  
+     40% {
+        transform: translate(0px, 0px);
+        transform-origin: center;
+     }
+}
+@keyframes box-move2{
+    0% {
+        transform: translate(0px, 0px);
+        transform-origin: center;
+     }
+  
+     20% {
+        transform: translate(-70px, -80px);
+        transform: translate(-100px, -120px);
+        transform-origin:  center;
+     }
+  
+     40% {
+        transform: translate(0px, 0px);
+        transform-origin: center;
+     }
+}
+.c1{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79),  rgb(113, 61, 195), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    animation: box-move2 4s 4s infinite;
+    
+    
+}
+.c2{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+}
+.c3{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+}
+.c4{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+}
+.c5{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+}
+.c6{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+}
+.c7{
+    position: relative;
+    border: 4px solid #fff;
+    background:linear-gradient(to right, rgb(10, 129, 79), rgb(113, 61, 195), rgb(0, 115, 255));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    animation: box-move 4s 2s infinite;
+}
