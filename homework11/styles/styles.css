@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: absolute;
+    left: 250px;
+    right: 250px;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 10px 0px;
+    left: 100px;
+    
+}
+
+.col-sm-10{
+    width: 250px;
+    height: 50px;
+   
+}
+.form-control{
+   background-image: url(../img/search.svg);
+   background-repeat: no-repeat; 
+   align-items: center; 
+}
+.line{
+    position: absolute;
+    color: rgb(59, 56, 56);
+    box-shadow: 5px gray;
+    position: absolute;
+    top: 60px;
+    width: 1000px;
+    height: 5px;
+    bottom: 50px;
+}
+.row{
+    top: 350px;
+}
+.circle{
+border: 4px solid #fff;
+background-image:url(../img/photo_5388567692023285422_m.jpg);
+background-repeat: no-repeat;
+border-radius: 50%;
+width: 150px;
+height: 150px;
+top: 150px;
+}
+.name{
+    padding: 30px 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 35px;
+    line-height: 75px;
+    color: #000000;
+}
+.dropdown{
+    top: 50px; 
+    color: #fff;
+    }
+    .span{
+        position: absolute;
+        left: 320px;
+        padding: 20px;
+    }
+    .name{
+        position: absolute;
+        left: 320px;
+        padding: 20px;
+        }
+    .boll{
+        position: absolute;
+        top: 450px;
+    }
+    .img2{
+        padding-right: 30px;
+    }
+    .line2{
+        position: absolute;
+        color: rgb(59, 56, 56);
+        box-shadow: 5px gray;
+        position: absolute;
+        top: 600px;
+        width: 1000px;
+        height: 5px;
+        bottom: 50px;
+    }
+    
+       
+    /*
+    .carousel-item active{
+     
+    }*/
+    .carusel{
+        position: absolute;
+        top:650px;
+       } 
+    .container2{
+    position:absolute;
+    top:1000px;
+    height: 550px;
+    left: 200px;
+    } 
+ 
+  .product {
+    background-image: url(../img/photo_5388567692023285424_m.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 150px;
+    border: 20px solid white;
+  }
